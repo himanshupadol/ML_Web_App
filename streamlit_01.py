@@ -8,9 +8,7 @@ import warnings
 # loading the saved model
 model_01 = pickle.load(open('C:/Users/HIAMNSHU/knnmodel_file.pkl', 'rb'))
 
-
-# creating a function for Prediction
-
+# creating a function
 def digit_class(input_pic):
     
     input_pic = input_pic.convert('L') #converting the image to grayscale
@@ -31,7 +29,6 @@ def main():
     
     # giving a title
     st.title('Identify the DIGIT from its Image!')
-    
     
     # getting the input data from the user
     file_01 = st.file_uploader("Upload Image of the Digit", type=["jpg", "jpeg", "png"])
