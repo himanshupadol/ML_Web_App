@@ -6,7 +6,7 @@ import warnings
 
 
 # loading the saved model
-model_01 = pickle.load(open('https://github.com/himanshupadol/ML_Web_App/blob/main/knnmodel_file.pkl', 'rb'))
+model_01 = pickle.load(open('knnmodel_file.pkl', 'rb'))
 
 # creating a function
 def digit_class(input_pic):
