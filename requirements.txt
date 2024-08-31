@@ -1,6 +1,5 @@
-numpy
-pickle
-Pillow
-scikit-learn
-streamlit
+streamlit==1.23.1
+numpy==1.21.0
+scikit-learn==1.0.2
+Pillow==8.2.0
 warnings
