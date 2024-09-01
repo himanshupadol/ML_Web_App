@@ -1,8 +1,5 @@
-import numpy as np
-import sklearn
 import pickle
 import streamlit as st
-from PIL import Image
 import warnings
 
 
