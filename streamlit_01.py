@@ -4,7 +4,10 @@ import warnings
 
 
 # loading the saved model
-model_01 = pickle.load(open('knnmodel_file.pkl', 'rb'))
+# model_01 = pickle.load(open('knnmodel_file.pkl', 'rb'))
+
+with open('knnmodel_file.pkl', 'rb') as file:
+    model_01 = pickle.load(file)
 
 # creating a function
 def digit_class(input_pic):
