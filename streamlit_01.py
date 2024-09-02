@@ -1,3 +1,4 @@
+import numpy
 import pickle
 import streamlit as st
 from PIL import Image
