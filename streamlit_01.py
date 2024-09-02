@@ -17,7 +17,7 @@ def digit_class(input_pic):
 
     input_pic = input_pic.resize((8, 8)) #resizing the image
 
-    pic2array = np.array(input_pic) #converting image to a numpy array
+    pic2array = numpy.array(input_pic) #converting image to a numpy array
 
     pic2array_norm = 16 - (pic2array // 16) #the images in trained dataset are on color scale of 0-16, hence converting the input image similarly
 
